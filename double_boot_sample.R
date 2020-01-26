@@ -119,4 +119,5 @@ double_boot_mean_degree <- dble_bt_mn_dgr(sam_double_boot_net =db_boot_sam_net,s
 
 corrected_mean_degree <- 3*mean(sample_mean_degree)-3*mean(boot_sample_net_mean)+mean(double_boot_mean_degree)
 
+## Bias corrected Sample Mean degree 
 corrected_mean_degree
